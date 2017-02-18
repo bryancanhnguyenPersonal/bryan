@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is Bryan's Personal and Responsive Website Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Nguyen</title>
+    <link rel="stylesheet" href="css/bundle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <div class="my-app">
+        <div class="first-panel">
+
+            <div class="name container">
+
+                <div class="image-border">
+                    <img src="./images/thats_me.jpg" />
+                </div>
+                <div class="BN-container">
+
+                    <h1>
+  <span>Bryan Nguyen </span>
+  </h1>
+
+                    <span class="web-description-1">
+    Web Developer
+  </span>
+                    <div class="web-description-2">
+                        <span><a href="#/" active-link="active">Blog</a></span>
+                    </div>
+                    <div class="web-description-3">
+                        <span><a href="#/about" active-link="active">About me</a></span>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div ng-view></div>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="row">
+            <div class="social">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/bryancanhnguyen" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/bryancnguyen" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://github.com/bryancnguyen" target="_blank"><i class="ion-social-github"></i></a></li>
+                    <li><a href="https://twitter.com/BryancNguyen" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="scripts/bundle.js"></script>
+    </footer>
+</body>
+
+</html>
